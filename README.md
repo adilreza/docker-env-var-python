@@ -1,4 +1,4 @@
-# How to pass environment varaibale on pure python script
+# How to pass env varaibale on pure python script
 
 ## Build & Run the simple script
 ```
