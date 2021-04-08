@@ -10,5 +10,8 @@ def triangle(n):
             print("* ", end="")
         print("\r")
 n = os.environ.get('TR_NUMBER')
+# TR_NUMBER=8 python3 traingle.py
+# docker run -e TR_NUMBER=7 bff2ba77dbd1
+
 nn = int(n)
 triangle(nn)
