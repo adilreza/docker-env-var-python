@@ -1,3 +1,5 @@
+import os
+
 def triangle(n):
     k = n - 1
     for i in range(0, n):
@@ -7,5 +9,6 @@ def triangle(n):
         for j in range(0, i+1):
             print("* ", end="")
         print("\r")
-n = 5
-triangle(n)
+n = os.environ.get('TR_NUMBER')
+nn = int(n)
+triangle(nn)
